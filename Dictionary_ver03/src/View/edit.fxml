@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="289.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EController">
+   <children>
+      <Label layoutX="57.0" layoutY="116.0" prefHeight="37.0" prefWidth="92.0" text="Word mới" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="57.0" AnchorPane.rightAnchor="429.0" AnchorPane.topAnchor="116.0" />
+      <Label layoutX="57.0" layoutY="43.0" prefHeight="37.0" prefWidth="74.0" text="Word  cũ" AnchorPane.bottomAnchor="209.0" AnchorPane.leftAnchor="57.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="43.0" />
+      <TextField fx:id="Lword" layoutX="196.0" layoutY="43.0" prefHeight="47.0" prefWidth="338.0" AnchorPane.bottomAnchor="199.0" AnchorPane.leftAnchor="196.0" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="43.0" />
+      <TextField fx:id="Nword" layoutX="196.0" layoutY="111.0" prefHeight="47.0" prefWidth="338.0" AnchorPane.bottomAnchor="131.0" AnchorPane.leftAnchor="196.0" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="111.0" />
+      <Label fx:id="alert" layoutX="137.0" layoutY="177.0" prefHeight="37.0" prefWidth="381.0" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="137.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="177.0" />
+      <Button fx:id="Edit" layoutX="227.0" layoutY="229.0" mnemonicParsing="false" onAction="#Eword" prefHeight="47.0" prefWidth="128.0" text="Edit" />
+   </children>
+</AnchorPane>

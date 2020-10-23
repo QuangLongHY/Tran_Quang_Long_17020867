@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.UIcontroller">
+   <children>
+      <VBox prefHeight="651.0" prefWidth="381.0">
+         <children>
+            <TextField fx:id="showword" prefHeight="51.0" prefWidth="216.0" style="-fx-background-color: MOCCASIN; -fx-border-colo: NAVY; -fx-background-radius: 20px;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <ListView fx:id="listword" prefHeight="607.0" prefWidth="381.0" style="-fx-border-color: LIGHTSEAGREEN; -fx-border-radius: 20px; -fx-fixed-cell-size: 30px;" />
+         </children>
+      </VBox>
+      <WebView fx:id="mean" fontScale="2.0" layoutX="387.0" layoutY="83.0" prefHeight="568.0" prefWidth="587.0" />
+      <Button fx:id="trans" layoutX="381.0" mnemonicParsing="false" onAction="#translate" prefHeight="51.0" prefWidth="102.0" style="-fx-background-radius: 20px; -fx-background-color: DODGERBLUE;" text="Translate" textFill="#f8f8ff" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="381.0" AnchorPane.rightAnchor="491.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="sound" layoutX="487.0" mnemonicParsing="false" onAction="#play" prefHeight="51.0" prefWidth="102.0" style="-fx-background-radius: 20px; -fx-background-color: LIMEGREEN;" text="Sound" textFill="#fce309" textOverrun="CLIP" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="487.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="add" layoutX="596.0" mnemonicParsing="false" onAction="#addWord" prefHeight="51.0" prefWidth="110.0" style="-fx-background-radius: 20px;" text="Add" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="596.0" AnchorPane.rightAnchor="268.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="Del" layoutX="714.0" mnemonicParsing="false" onAction="#DelWord" prefHeight="51.0" prefWidth="96.0" style="-fx-background-radius: 20px;" text="Delete" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="714.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="Edit" layoutX="822.0" mnemonicParsing="false" onAction="#editword" prefHeight="51.0" prefWidth="96.0" style="-fx-background-radius: 20px;" text="Edit" AnchorPane.bottomAnchor="600.0" AnchorPane.leftAnchor="822.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

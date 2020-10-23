@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="264.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DelController">
+   <children>
+      <Label layoutX="55.0" layoutY="65.0" prefHeight="45.0" prefWidth="72.0" text="Xóa Từ" AnchorPane.bottomAnchor="154.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="461.0" AnchorPane.topAnchor="65.0" />
+      <TextField fx:id="wdel" layoutX="135.0" layoutY="65.0" prefHeight="45.0" prefWidth="408.0" AnchorPane.bottomAnchor="154.0" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="45.0" AnchorPane.topAnchor="65.0" />
+      <Button fx:id="del" layoutX="235.0" layoutY="183.0" mnemonicParsing="false" onAction="#delword" prefHeight="45.0" prefWidth="144.0" text="Xóa" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="209.0" AnchorPane.topAnchor="183.0" />
+      <Label fx:id="alert" layoutX="130.0" layoutY="119.0" prefHeight="45.0" prefWidth="416.0" textFill="#e40c0c" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="42.0" AnchorPane.topAnchor="119.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
